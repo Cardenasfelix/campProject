@@ -27,3 +27,29 @@ This is our css style sheet
     padding: 0 0 0 100px;
 
 }
+/*----------------------- Section Styling---------------------------------------*/
+#tribute-info {
+    text-align: center;
+}
+
+#tribute-info > h3 {
+    padding: 30px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+
+#tribute-info > .container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 400px;
+    font-style: italic;
+}
+.secondP {
+    padding: 7px;
+    font-size: 10px;
+}
