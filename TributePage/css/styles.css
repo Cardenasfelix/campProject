@@ -9,7 +9,7 @@ This is our css style sheet
     margin: 0;
     padding: 0;
 }
-/*----------------------- Main Div Container Styling -------------------------*/
+/*----------------------- Main Div Container Styling Below -------------------------*/
 #img-div {
     height: 90vh;
     background-size: 100% 100%;
@@ -27,7 +27,7 @@ This is our css style sheet
     padding: 0 0 0 100px;
 
 }
-/*----------------------- Section Styling---------------------------------------*/
+/*----------------------- Section Styling Below ---------------------------------------*/
 #tribute-info {
     text-align: center;
 }
@@ -36,20 +36,28 @@ This is our css style sheet
     padding: 30px;
 }
 
-li {
+ul {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 5px;
+    flex-direction: column;
+    padding: 5px 370px;
+}
+
+li > p {
+    padding: 5px 0;
+    text-align: left;
 }
 
 #tribute-info > .container {
     display: flex;
     flex-direction: column;
-    padding: 5px 400px;
+    padding: 5px 350px;
     font-style: italic;
+    justify-content: space-around;
 }
 .secondP {
     padding: 7px;
     font-size: 10px;
 }
+
+/*----------------------- Footer Section Below ---------------*/
+
